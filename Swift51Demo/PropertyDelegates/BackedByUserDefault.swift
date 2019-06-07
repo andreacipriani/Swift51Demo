@@ -1,6 +1,7 @@
 import Foundation
 
-@propertyDelegate public final class BackedByUserDefault<T> {
+@propertyDelegate
+public final class BackedByUserDefault<T> {
     private let key: String
     
     public init(key: String) {
